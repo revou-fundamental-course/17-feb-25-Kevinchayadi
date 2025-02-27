@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International Travel Agency</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Tambahkan Font Awesome untuk ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header class="header-container">
+        <!-- Logo Company -->
+        <div class="logo-container">
+            <h1>International Travel Agency </h1>
+        </div>
+        
+        <nav>
+            <a href="#" class="no-border-radius-right">Home</a>
+            <a href="#our-package-section" class="no-border-radius">Our Packages</a>
+            <a href="#closing-argument" class="no-border-radius-left">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <header class="hero-section">
+            <h1>Your Trusted Travel Partner</h1>
+            <h4>Your Happiness is Our Happiness</h4>
+            <p>Discover the world's most beautiful destinations with us. Unforgettable adventures await!</p>
+        </header>
+        
+
+        <section class="main-content">
+            <!-- Banner Autoslide -->
+            <aside class="main-container">
+                <h2>Customer Testimonials</h2>
+                <div class="slider">
+                    <img id="slide-image" src="assets/kuala_lumpur.jpg" alt="Travel Banner">
+                    <div class="testimonial-container">
+                        <!-- Menampilkan Place, Name, Gender, and Age -->
+                        <h4 class="testimonial-text" id="testimonial-text">"The vibrant city of Kuala Lumpur has so much to offer. Shopping, dining, and culture blend perfectly!"</h4>
+                        <h2 class="testimonial-user" id="testimonial-user">
+                            <span style="font-weight: bold; font-size: 1.2em;">Kuala Lumpur</span><br>
+                            <i class="fa-solid fa-user"></i> John Doe, Male, 32
+                        </h2>
+                    </div>
+                </div>
+            </aside>
+            
+
+
+            <!-- Form Contact Us -->
+            <aside class="main-container">
+                <form id="contact-us-form">
+                    <h1>Contact Us</h1>
+                    <p class="contact-message">Sales will contact you 1x24 hours after we receive the data.</p>
+                    
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="First and Last Name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+
+                    <label for="destination">Travel Destination:</label>
+                    <select id="destination" name="destination" required>
+                        <option value="" disabled selected>Select Option</option>
+                        <option value="arab">Arab</option>
+                        <option value="indonesia">Indonesia</option>
+                        <option value="japan">Japan</option>
+                    </select>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </aside>
+        </section>
+
+        <!-- Our Packages Section -->
+        <section class="our-package-section">
+            <header>
+                <h2>Our Packages</h2>
+            </header>
+            
+            <!-- Grid Layout for Packages handled with js-->
+            <div class="package-grid" id="package-container"> </div>
+        </section>
+
+        <!-- Closing Argument Section -->
+        <section class="closing-argument">
+            <h1>Your Journey Begins Here</h1>
+            <p>Unlock a World of Endless Possibilities with Our Exclusive Travel Packages. </p>
+            <p>Where Every Journey Knows No Boundaries!</p>
+        
+            <!-- Contact Info -->
+            <div class="contact-container">
+                <div class="contact-item">
+                        <i class="fa-solid fa-clock"></i> Monday - Friday, 10:00 am - 17:00 pm
+   
+                </div>
+                <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i> vandorshopid@gmail.com
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <!-- Logo di Tengah -->
+            <div class="logo-container">
+                <h1>International Travel Agency</h1>
+            </div>
+            <p class="copyright">© Kevin 2025. Term and Policy </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
