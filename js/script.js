@@ -77,11 +77,10 @@ slides.forEach(slide => {
                 <span style="color: ${color};">${slides[currentIndex].name}, ${slides[currentIndex].gender}, ${slides[currentIndex].age}</span>
             `;
             
-            // Efek fade in setelah mengganti konten
             slideImage.style.opacity = 1;
             testimonialText.style.opacity = 1;
             testimonialUser.style.opacity = 1;
-        }, 500); // Delay 500ms sebelum menampilkan yang baru
+        }); // Delay 500ms sebelum menampilkan yang baru
     }
 
     setInterval(changeSlide, 4000);
