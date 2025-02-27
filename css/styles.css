@@ -129,6 +129,7 @@ h1 {
     font-style: italic;
     margin-bottom: 15px;
 }
+/* for slider img banner */
 .slider{
     display: flex;
     
@@ -157,6 +158,7 @@ h1 {
     margin-bottom: 20px;
 }
 
+/* form styling */
 form {
     display: flex;
     flex-direction: column;
@@ -200,6 +202,7 @@ form button:hover {
     margin-bottom: 20px;
 }
 
+/* card */
 .package-card {
     background: #fff;
     border-radius: 15px;
