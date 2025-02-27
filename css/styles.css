@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -16,7 +18,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2C3E50;
+    background-color: #2C3E50;s
     padding: 20px 30px;
 }
 
@@ -363,3 +365,79 @@ footer .copyright {
         align-items: center;
     }
 }
+/* Responsive Design  for font*/
+@media (max-width: 768px) {
+    /* Header Styling */
+    .logo-container h1 {
+        font-size: 16px;  /* Menurunkan ukuran font logo */
+    }
+
+    nav a {
+        font-size: 14px;  /* Menurunkan ukuran font untuk link navigasi */
+        margin: 0 10px;   /* Mengurangi jarak antar link */
+    }
+
+    /* Hero Section Styling */
+    .hero-section h1 {
+        font-size: 2.5rem;  /* Menurunkan ukuran font judul */
+    }
+
+    .hero-section h4 {
+        font-size: 1.5rem;  /* Menurunkan ukuran font sub-judul */
+    }
+
+    .hero-section p {
+        font-size: 1rem;  /* Menurunkan ukuran font deskripsi */
+    }
+
+    /* Main Content Styling */
+    .main-content {
+        flex-direction: column;
+    }
+
+    .main-container {
+        width: 100%;  /* Menyesuaikan lebar kontainer */
+        padding: 30px;  /* Mengurangi padding */
+    }
+
+    /* Section Titles */
+    h2, h1 {
+        font-size: 2rem;  /* Menurunkan ukuran font untuk heading */
+    }
+
+    .testimonial-text {
+        font-size: 1rem;  /* Menurunkan ukuran font testimonial */
+    }
+
+    /* Package Card */
+    .package-card h2 {
+        font-size: 1.8rem;  /* Menurunkan ukuran font untuk judul paket */
+    }
+
+    .package-card h4 {
+        font-size: 1rem;  /* Menurunkan ukuran font untuk harga */
+    }
+
+    .package-card p {
+        font-size: 0.9rem;  /* Menurunkan ukuran font deskripsi paket */
+    }
+
+    /* Footer Styling */
+    footer .footer-links a {
+        font-size: 0.9rem;  /* Menurunkan ukuran font untuk link footer */
+    }
+
+    footer .copyright {
+        font-size: 0.8rem;  /* Menurunkan ukuran font copyright */
+    }
+
+    /* Contact Section */
+    .contact-item {
+        font-size: 1rem;  /* Menurunkan ukuran font untuk kontak */
+    }
+
+    .contact-message {
+        font-size: 0.9rem;  /* Menurunkan ukuran font pesan */
+    }
+}
+
