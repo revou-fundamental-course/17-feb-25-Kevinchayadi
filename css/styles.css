@@ -324,6 +324,17 @@ footer .copyright {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+    }
+    .logo-container h1 {
+        font-size: 14px;
+
+    }
+    nav a {
+        font-size: 9px;
+    }
+
     .main-content {
         flex-direction: column;
     }
@@ -338,6 +349,14 @@ footer .copyright {
 
     .contact-container {
         flex-direction: column;
+    }
+    .main-container {
+        background: white;
+        width: 98%;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px;
     }
 
     footer .footer-container {
